@@ -8,8 +8,46 @@
     <link rel="icon" href="./public/web-icon.png">
 </head>
 <body>
-    
+    <div class="scoreSection">
+        <div class="humanSection">
+            <p id="candidate">PLAYER</p>
+            <span>0</span>
+        </div>
+        <div class="robotSection">
+            <p id="candidate">ROBOT</p>
+            <span>0</span>
+        </div>
+    </div>
 
+    <div class="playGround">
+        <div class="humanGround">
+            <div class="humanGroungImg">
+                <img src="./public/scissor.png" alt="humanChoice">
+            </div>
+        </div>
+        <div class="robotGround">
+            <div class="robotGroundImg">
+                <img src="./public/paper.png" alt="robotChoice">
+            </div>
+        </div>
+    </div>
+
+    <div class="choseBtnArea">
+        <p>Choose an option</p>
+        <div class="buttonArea">
+            <button class="btn">Rock</button>
+            <button class="btn">Paper</button>
+            <button class="btn">Scissor</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="footer-txt">© | created by Ayaan</p>
+        <div class="footerBtnArea">
+            <button class="footer-btn">Rules</button>
+            <button class="footer-btn">Reset</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
